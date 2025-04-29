@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 Travel Planner</title>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Travel Planner</h1>
+    </header>
+
+    <main class="main-content">
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="city-input" 
+                    placeholder="Enter city (e.g., Paris)"
+                    aria-label="City name"
+                >
+                <button id="search-btn">Search</button>
+            </div>
+        </section>
+
+        <!-- Weather Display Section -->
+        <section class="weather-section">
+            <div id="weather-display">
+                <!-- Weather data will appear here dynamically -->
+            </div>
+        </section>
+
+        <!-- Itinerary Section -->
+        <section class="itinerary-section">
+            <h2>Your Itinerary</h2>
+            <div id="itinerary-container">
+                <!-- Activities will appear here dynamically -->
+            </div>
+        </section>
+
+        <!-- Map Section (Optional) -->
+        <section class="map-section">
+            <div id="map">
+                <!-- Map will load here later -->
+            </div>
+        </section>
+    </main>
+
+    <script src="./scripts/app.js" type="module"></script>
+</body>
+</html>
